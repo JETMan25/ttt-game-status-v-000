@@ -38,9 +38,16 @@ def over?(board)
 end
   
 def winner(board)
+<<<<<<< HEAD
 if won?(board) 
   win_combo = won?(board)
   board[win_combo[0]] 
+=======
+if won?(board)
+  return "X" 
+  elsif won?(board)
+return "O"
+>>>>>>> cdece3e9a1758d979ca6beabaf12f06c71d9fe40
 else 
   nil
 end
